@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Masry Bookmark</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container py-5 px-4">
+            <h3>Bookmarker</h3>
+        </div>
+    </header>
+
+    <section>
+        <div class="container  my-3 text-center p-4">
+            <h2 class="fw-bolder fs-4">Bookmark your favorite sites</h2>
+
+            <label for="bookmarkName" class="my-3 fs-6 fw-bold">Site Name</label>
+            <input type="text" id="bookmarkName" class="form-control w-75 mx-auto" placeholder="Bookmark Name">
+            <label for="website" class="my-3 fs-6 fw-bold">Site URL</label>
+            <input type="text" id="website" class="form-control w-75 mx-auto" placeholder="Website URL">
+            <button onclick="submitBook()" class="btn btn-primary my-3">Submit</button>
+        </div>
+    </section>
+    <section id="contents">
+
+    </section>
+
+    <footer>
+		<div class="container p-5">
+			<p>© 2023 Bookmarker Inc.</p>
+		</div>
+	</footer>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
